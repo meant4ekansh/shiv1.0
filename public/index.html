@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Shiv 1.0</title>
+    <script src="libraries/p5.js"></script>
+  	<script src="libraries/p5.dom.js"></script>
+  	<script src="libraries/p5.sound.js"></script>
+    <script src="sketch.js"></script>
+    <script src="libraries/js/bootstrap.bundle.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="libraries/css/bootstrap.min.css">
+
+  </head>
+  <body>
+      <nav class="navbar fixed-top navbar-light" style="background-color: #e4a9ae;">
+          
+          <div class = 'controlLeft' >
+              <button onclick = 'paintRed()' class = 'btn btn-outline-danger'> red </button>
+              <button onclick = 'paintGreen()' class = 'btn btn-outline-success'> green </button>
+              <button onclick = 'paintBlue()' class = 'btn btn-outline-primary'> blue </button>
+              <button onclick = 'triggerWhite()' class = 'btn btn-primary'> Clear Screen </button>    
+          </div>>
+          <div id = 'slides'></div>
+      </nav>
+    
+
+           
+      
+
+    <div id = 'toolCanvas' class = 'fixed-bottom'></div>
+    <div id = 'faceCanvas' class = 'faceCanvas1'></div>
+  </body>
+</html>
