@@ -1,0 +1,16 @@
+{
+  "name": "shiv",
+  "version": "1.0.0",
+  "description": "shiv is a multi People Reader's library",
+  "main": "server.js",
+  "scripts": {
+    "test": "console.log('testing done!')",
+    "start": "node server.js"
+  },
+  "author": "Ekansh Srivastva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
